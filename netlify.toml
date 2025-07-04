@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "/.well-known/apple-app-site-association"
+  to = "/apple-app-site-association"
+  status = 200
+
+[[headers]]
+  for = "/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=0, must-revalidate" 
