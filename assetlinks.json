@@ -1,0 +1,11 @@
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.frontyard.app",
+    "sha256_cert_fingerprints": [
+      "15:29:20:9E:E8:A4:71:D9:D4:04:2E:FF:20:BC:DC:64:CD:5D:61:4E:20:4D:D9:7E:A8:A8:0D:C1:4D:0A:44:86",
+      "33:4E:24:BF:8B:1F:BE:BE:9C:CF:FE:83:E2:8C:F6:49:EE:F8:43:EA:0F:51:A3:10:85:63:0B:82:89:5B:9F:B9"
+    ]
+  }
+}

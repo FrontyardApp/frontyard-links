@@ -1,3 +1,4 @@
 /.well-known/apple-app-site-association /apple-app-site-association 200
+/.well-known/assetlinks.json /assetlinks.json
 /discover/place/* /index.html 200
 /profile/place/* /index.html 200 

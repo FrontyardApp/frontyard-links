@@ -4,6 +4,11 @@
   status = 200
 
 [[redirects]]
+  from = "/.well-known/assetlinks.json"
+  to = "/assetlinks.json"
+  status = 200
+
+[[redirects]]
   from = "/discover/place/*"
   to = "/index.html"
   status = 200
@@ -24,3 +29,9 @@
   [headers.values]
     Content-Type = "application/json"
     Cache-Control = "public, max-age=0, must-revalidate" 
+
+[[headers]]
+  for = "/.well-known/assetlinks.json"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=0, must-revalidate"
