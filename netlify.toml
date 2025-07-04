@@ -3,6 +3,16 @@
   to = "/apple-app-site-association"
   status = 200
 
+[[redirects]]
+  from = "/discover/place/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/profile/place/*"
+  to = "/index.html"
+  status = 200
+
 [[headers]]
   for = "/apple-app-site-association"
   [headers.values]
