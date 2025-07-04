@@ -1,5 +1,6 @@
 /.well-known/apple-app-site-association
     Content-Type: application/json
+    Cache-Control: public, max-age=0, must-revalidate
 
 /.well-known/assetslinks.json
     Content-Type: application/json
